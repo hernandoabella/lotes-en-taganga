@@ -5,17 +5,6 @@ export default function Gallery() {
     <section id="galeria" className="py-20 bg-gray-50">
       <div className="max-w-6xl mx-auto px-6">
 
-        {/* Title */}
-        <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">
-            Galería del Proyecto
-          </h2>
-          <p className="text-gray-600 max-w-xl mx-auto">
-            Imágenes de referencia del entorno, naturaleza y tipo de loteo.
-            (Luego podrás reemplazar estas fotos por las reales).
-          </p>
-        </div>
-
         {/* Grid of Images */}
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
           

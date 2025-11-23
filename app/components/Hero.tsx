@@ -24,14 +24,6 @@ export default function Hero() {
         </p>
 
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-          {/* CTA Main */}
-          <a
-            href="#precios"
-            className="px-8 py-4 bg-green-600 hover:bg-green-700 transition rounded-full font-semibold text-white shadow-lg"
-          >
-            Ver precios
-          </a>
-
           {/* CTA Secondary */}
           <a
             href="https://wa.me/573001234567"
