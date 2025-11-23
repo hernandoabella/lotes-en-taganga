@@ -1,0 +1,221 @@
+2025-11-23T03:57:03.944488Z  INFO tailwindcss_oxide::scanner: Provided sources:
+2025-11-23T03:57:03.977909Z  INFO tailwindcss_oxide::scanner: Source: PublicSourceEntry { base: "G:\\GitHub\\lotes-en-taganga\\lotes-en-taganga", pattern: "**/*", negated: false }
+2025-11-23T03:57:04.002793Z  INFO tailwindcss_oxide::scanner: Optimized sources:
+2025-11-23T03:57:04.002828Z  INFO tailwindcss_oxide::scanner: Source: Auto { base: "G:\\GitHub\\lotes-en-taganga\\lotes-en-taganga" }
+2025-11-23T03:57:04.095196Z  INFO scan_sources: tailwindcss_oxide::scanner: enter
+2025-11-23T03:57:04.159495Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\lotes-en-taganga\\lotes-en-taganga\\app"
+2025-11-23T03:57:04.159732Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\lotes-en-taganga\\lotes-en-taganga\\app\\components"
+2025-11-23T03:57:04.160149Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\lotes-en-taganga\\lotes-en-taganga\\app\\components\\Hero.tsx"
+2025-11-23T03:57:04.160273Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\lotes-en-taganga\\lotes-en-taganga\\app\\globals.css"
+2025-11-23T03:57:04.160351Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\lotes-en-taganga\\lotes-en-taganga\\app\\layout.tsx"
+2025-11-23T03:57:04.160434Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\lotes-en-taganga\\lotes-en-taganga\\app\\page.tsx"
+2025-11-23T03:57:04.160538Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\lotes-en-taganga\\lotes-en-taganga\\eslint.config.mjs"
+2025-11-23T03:57:04.160615Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\lotes-en-taganga\\lotes-en-taganga\\next.config.ts"
+2025-11-23T03:57:04.160846Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\lotes-en-taganga\\lotes-en-taganga\\package.json"
+2025-11-23T03:57:04.160915Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\lotes-en-taganga\\lotes-en-taganga\\postcss.config.mjs"
+2025-11-23T03:57:04.161011Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\lotes-en-taganga\\lotes-en-taganga\\public"
+2025-11-23T03:57:04.161147Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\lotes-en-taganga\\lotes-en-taganga\\public\\file.svg"
+2025-11-23T03:57:04.161215Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\lotes-en-taganga\\lotes-en-taganga\\public\\globe.svg"
+2025-11-23T03:57:04.161286Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\lotes-en-taganga\\lotes-en-taganga\\public\\next.svg"
+2025-11-23T03:57:04.161354Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\lotes-en-taganga\\lotes-en-taganga\\public\\vercel.svg"
+2025-11-23T03:57:04.161424Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\lotes-en-taganga\\lotes-en-taganga\\public\\window.svg"
+2025-11-23T03:57:04.161508Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\lotes-en-taganga\\lotes-en-taganga\\README.md"
+2025-11-23T03:57:04.161579Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\lotes-en-taganga\\lotes-en-taganga\\tsconfig.json"
+2025-11-23T03:57:04.161650Z  INFO scan_sources: tailwindcss_oxide::scanner: exit
+2025-11-23T03:57:04.161669Z  INFO extract_candidates: tailwindcss_oxide::scanner: enter
+2025-11-23T03:57:04.161676Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: enter
+2025-11-23T03:57:04.161680Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading 14 file(s)
+2025-11-23T03:57:04.178632Z  INFO tailwindcss_oxide::scanner: Reading "G:\\GitHub\\lotes-en-taganga\\lotes-en-taganga\\app\\layout.tsx"
+2025-11-23T03:57:04.178643Z  INFO tailwindcss_oxide::scanner: Reading "G:\\GitHub\\lotes-en-taganga\\lotes-en-taganga\\app\\components\\Hero.tsx"
+2025-11-23T03:57:04.178638Z  INFO tailwindcss_oxide::scanner: Reading "G:\\GitHub\\lotes-en-taganga\\lotes-en-taganga\\package.json"
+2025-11-23T03:57:04.178749Z  INFO tailwindcss_oxide::scanner: Reading "G:\\GitHub\\lotes-en-taganga\\lotes-en-taganga\\eslint.config.mjs"
+2025-11-23T03:57:04.178726Z  INFO tailwindcss_oxide::scanner: Reading "G:\\GitHub\\lotes-en-taganga\\lotes-en-taganga\\public\\file.svg"
+2025-11-23T03:57:04.178660Z  INFO tailwindcss_oxide::scanner: Reading "G:\\GitHub\\lotes-en-taganga\\lotes-en-taganga\\postcss.config.mjs"
+2025-11-23T03:57:04.178805Z  INFO tailwindcss_oxide::scanner: Reading "G:\\GitHub\\lotes-en-taganga\\lotes-en-taganga\\next.config.ts"
+2025-11-23T03:57:04.178773Z  INFO tailwindcss_oxide::scanner: Reading "G:\\GitHub\\lotes-en-taganga\\lotes-en-taganga\\app\\page.tsx"
+2025-11-23T03:57:04.178829Z  INFO tailwindcss_oxide::scanner: Reading "G:\\GitHub\\lotes-en-taganga\\lotes-en-taganga\\public\\vercel.svg"
+2025-11-23T03:57:04.178895Z  INFO tailwindcss_oxide::scanner: Reading "G:\\GitHub\\lotes-en-taganga\\lotes-en-taganga\\tsconfig.json"
+2025-11-23T03:57:04.178933Z  INFO tailwindcss_oxide::scanner: Reading "G:\\GitHub\\lotes-en-taganga\\lotes-en-taganga\\public\\window.svg"
+2025-11-23T03:57:04.200692Z  INFO tailwindcss_oxide::scanner: Reading "G:\\GitHub\\lotes-en-taganga\\lotes-en-taganga\\README.md"
+2025-11-23T03:57:04.205924Z  INFO tailwindcss_oxide::scanner: Reading "G:\\GitHub\\lotes-en-taganga\\lotes-en-taganga\\public\\globe.svg"
+2025-11-23T03:57:04.213293Z  INFO tailwindcss_oxide::scanner: Reading "G:\\GitHub\\lotes-en-taganga\\lotes-en-taganga\\public\\next.svg"
+2025-11-23T03:57:04.213411Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: exit
+2025-11-23T03:57:04.213457Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: enter
+2025-11-23T03:57:04.213470Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: enter
+2025-11-23T03:57:04.214036Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: exit
+2025-11-23T03:57:04.214058Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: exit
+2025-11-23T03:57:04.214066Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: enter
+2025-11-23T03:57:04.214070Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading 1 file(s)
+2025-11-23T03:57:04.214190Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading "G:\\GitHub\\lotes-en-taganga\\lotes-en-taganga\\app\\globals.css"
+2025-11-23T03:57:04.214202Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: exit
+2025-11-23T03:57:04.214211Z  INFO extract_candidates:extract_css_variables: tailwindcss_oxide::scanner: enter
+2025-11-23T03:57:04.214215Z  INFO extract_candidates:extract_css_variables:extract: tailwindcss_oxide::scanner: enter
+2025-11-23T03:57:04.214308Z  INFO extract_candidates:extract_css_variables:extract: tailwindcss_oxide::scanner: exit
+2025-11-23T03:57:04.214324Z  INFO extract_candidates:extract_css_variables: tailwindcss_oxide::scanner: exit
+2025-11-23T03:57:04.214615Z  INFO extract_candidates: tailwindcss_oxide::scanner: exit
+2025-11-23T03:57:04.214947Z  INFO get_files: tailwindcss_oxide::scanner: enter
+2025-11-23T03:57:04.214958Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: enter
+2025-11-23T03:57:04.216083Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\lotes-en-taganga\\lotes-en-taganga\\app"
+2025-11-23T03:57:04.216247Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\lotes-en-taganga\\lotes-en-taganga\\app\\components"
+2025-11-23T03:57:04.216903Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\lotes-en-taganga\\lotes-en-taganga\\public"
+2025-11-23T03:57:04.217267Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: exit
+2025-11-23T03:57:04.217384Z  INFO get_files: tailwindcss_oxide::scanner: exit
+2025-11-23T03:57:04.217465Z  INFO get_globs: tailwindcss_oxide::scanner: enter
+2025-11-23T03:57:04.217473Z  INFO get_globs:scan_sources: tailwindcss_oxide::scanner: enter
+2025-11-23T03:57:04.218631Z  INFO get_globs:scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\lotes-en-taganga\\lotes-en-taganga\\app"
+2025-11-23T03:57:04.218827Z  INFO get_globs:scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\lotes-en-taganga\\lotes-en-taganga\\app\\components"
+2025-11-23T03:57:04.219456Z  INFO get_globs:scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\lotes-en-taganga\\lotes-en-taganga\\public"
+2025-11-23T03:57:04.219879Z  INFO get_globs:scan_sources: tailwindcss_oxide::scanner: exit
+2025-11-23T03:57:04.221924Z  INFO get_globs: tailwindcss_oxide::scanner: exit
+2025-11-23T05:06:42.498520Z  INFO scan_sources: tailwindcss_oxide::scanner: enter
+2025-11-23T05:06:42.500551Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\lotes-en-taganga\\lotes-en-taganga\\app"
+2025-11-23T05:06:42.500736Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\lotes-en-taganga\\lotes-en-taganga\\app\\components"
+2025-11-23T05:06:42.500905Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\lotes-en-taganga\\lotes-en-taganga\\app\\components\\Hero.tsx"
+2025-11-23T05:06:42.501089Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\lotes-en-taganga\\lotes-en-taganga\\app\\page.tsx"
+2025-11-23T05:06:42.501663Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\lotes-en-taganga\\lotes-en-taganga\\public"
+2025-11-23T05:06:42.502107Z  INFO scan_sources: tailwindcss_oxide::scanner: exit
+2025-11-23T05:06:42.502119Z  INFO extract_candidates: tailwindcss_oxide::scanner: enter
+2025-11-23T05:06:42.502124Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: enter
+2025-11-23T05:06:42.502127Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading 2 file(s)
+2025-11-23T05:06:42.502345Z  INFO tailwindcss_oxide::scanner: Reading "G:\\GitHub\\lotes-en-taganga\\lotes-en-taganga\\app\\components\\Hero.tsx"
+2025-11-23T05:06:42.502393Z  INFO tailwindcss_oxide::scanner: Reading "G:\\GitHub\\lotes-en-taganga\\lotes-en-taganga\\app\\page.tsx"
+2025-11-23T05:06:42.502457Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: exit
+2025-11-23T05:06:42.502473Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: enter
+2025-11-23T05:06:42.502479Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: enter
+2025-11-23T05:06:42.502903Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: exit
+2025-11-23T05:06:42.502915Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: exit
+2025-11-23T05:06:42.503046Z  INFO extract_candidates: tailwindcss_oxide::scanner: exit
+2025-11-23T05:06:42.503211Z  INFO get_files: tailwindcss_oxide::scanner: enter
+2025-11-23T05:06:42.503220Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: enter
+2025-11-23T05:06:42.504400Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\lotes-en-taganga\\lotes-en-taganga\\app"
+2025-11-23T05:06:42.504565Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\lotes-en-taganga\\lotes-en-taganga\\app\\components"
+2025-11-23T05:06:42.505220Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\lotes-en-taganga\\lotes-en-taganga\\public"
+2025-11-23T05:06:42.505603Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: exit
+2025-11-23T05:06:42.505707Z  INFO get_files: tailwindcss_oxide::scanner: exit
+2025-11-23T05:06:42.505786Z  INFO get_globs: tailwindcss_oxide::scanner: enter
+2025-11-23T05:06:42.505794Z  INFO get_globs: tailwindcss_oxide::scanner: exit
+2025-11-23T05:06:48.136973Z  INFO scan_sources: tailwindcss_oxide::scanner: enter
+2025-11-23T05:06:48.138299Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\lotes-en-taganga\\lotes-en-taganga\\app"
+2025-11-23T05:06:48.138467Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\lotes-en-taganga\\lotes-en-taganga\\app\\components"
+2025-11-23T05:06:48.138731Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\lotes-en-taganga\\lotes-en-taganga\\app\\page.tsx"
+2025-11-23T05:06:48.139136Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\lotes-en-taganga\\lotes-en-taganga\\public"
+2025-11-23T05:06:48.139584Z  INFO scan_sources: tailwindcss_oxide::scanner: exit
+2025-11-23T05:06:48.139595Z  INFO extract_candidates: tailwindcss_oxide::scanner: enter
+2025-11-23T05:06:48.139600Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: enter
+2025-11-23T05:06:48.139603Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading 1 file(s)
+2025-11-23T05:06:48.139670Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading "G:\\GitHub\\lotes-en-taganga\\lotes-en-taganga\\app\\page.tsx"
+2025-11-23T05:06:48.139680Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: exit
+2025-11-23T05:06:48.139684Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: enter
+2025-11-23T05:06:48.139687Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: enter
+2025-11-23T05:06:48.139814Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: exit
+2025-11-23T05:06:48.139833Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: exit
+2025-11-23T05:06:48.139915Z  INFO extract_candidates: tailwindcss_oxide::scanner: exit
+2025-11-23T05:06:48.140070Z  INFO get_files: tailwindcss_oxide::scanner: enter
+2025-11-23T05:06:48.140078Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: enter
+2025-11-23T05:06:48.141301Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\lotes-en-taganga\\lotes-en-taganga\\app"
+2025-11-23T05:06:48.141466Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\lotes-en-taganga\\lotes-en-taganga\\app\\components"
+2025-11-23T05:06:48.142099Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\lotes-en-taganga\\lotes-en-taganga\\public"
+2025-11-23T05:06:48.142467Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: exit
+2025-11-23T05:06:48.142550Z  INFO get_files: tailwindcss_oxide::scanner: exit
+2025-11-23T05:06:48.142625Z  INFO get_globs: tailwindcss_oxide::scanner: enter
+2025-11-23T05:06:48.142632Z  INFO get_globs: tailwindcss_oxide::scanner: exit
+2025-11-23T05:06:51.841625Z  INFO scan_sources: tailwindcss_oxide::scanner: enter
+2025-11-23T05:06:51.842862Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\lotes-en-taganga\\lotes-en-taganga\\app"
+2025-11-23T05:06:51.843032Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\lotes-en-taganga\\lotes-en-taganga\\app\\components"
+2025-11-23T05:06:51.843301Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\lotes-en-taganga\\lotes-en-taganga\\app\\page.tsx"
+2025-11-23T05:06:51.843801Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\lotes-en-taganga\\lotes-en-taganga\\public"
+2025-11-23T05:06:51.844194Z  INFO scan_sources: tailwindcss_oxide::scanner: exit
+2025-11-23T05:06:51.844205Z  INFO extract_candidates: tailwindcss_oxide::scanner: enter
+2025-11-23T05:06:51.844210Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: enter
+2025-11-23T05:06:51.844213Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading 1 file(s)
+2025-11-23T05:06:51.844279Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading "G:\\GitHub\\lotes-en-taganga\\lotes-en-taganga\\app\\page.tsx"
+2025-11-23T05:06:51.844289Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: exit
+2025-11-23T05:06:51.844294Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: enter
+2025-11-23T05:06:51.844297Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: enter
+2025-11-23T05:06:51.844398Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: exit
+2025-11-23T05:06:51.844413Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: exit
+2025-11-23T05:06:51.844520Z  INFO extract_candidates: tailwindcss_oxide::scanner: exit
+2025-11-23T05:06:51.844664Z  INFO get_files: tailwindcss_oxide::scanner: enter
+2025-11-23T05:06:51.844672Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: enter
+2025-11-23T05:06:51.845708Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\lotes-en-taganga\\lotes-en-taganga\\app"
+2025-11-23T05:06:51.845867Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\lotes-en-taganga\\lotes-en-taganga\\app\\components"
+2025-11-23T05:06:51.846559Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\lotes-en-taganga\\lotes-en-taganga\\public"
+2025-11-23T05:06:51.846987Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: exit
+2025-11-23T05:06:51.847082Z  INFO get_files: tailwindcss_oxide::scanner: exit
+2025-11-23T05:06:51.847175Z  INFO get_globs: tailwindcss_oxide::scanner: enter
+2025-11-23T05:06:51.847183Z  INFO get_globs: tailwindcss_oxide::scanner: exit
+2025-11-23T05:06:55.518801Z  INFO scan_sources: tailwindcss_oxide::scanner: enter
+2025-11-23T05:06:55.520118Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\lotes-en-taganga\\lotes-en-taganga\\app"
+2025-11-23T05:06:55.520294Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\lotes-en-taganga\\lotes-en-taganga\\app\\components"
+2025-11-23T05:06:55.520565Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\lotes-en-taganga\\lotes-en-taganga\\app\\page.tsx"
+2025-11-23T05:06:55.520980Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\lotes-en-taganga\\lotes-en-taganga\\public"
+2025-11-23T05:06:55.521372Z  INFO scan_sources: tailwindcss_oxide::scanner: exit
+2025-11-23T05:06:55.521384Z  INFO extract_candidates: tailwindcss_oxide::scanner: enter
+2025-11-23T05:06:55.521389Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: enter
+2025-11-23T05:06:55.521392Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading 1 file(s)
+2025-11-23T05:06:55.521460Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading "G:\\GitHub\\lotes-en-taganga\\lotes-en-taganga\\app\\page.tsx"
+2025-11-23T05:06:55.521471Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: exit
+2025-11-23T05:06:55.521475Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: enter
+2025-11-23T05:06:55.521479Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: enter
+2025-11-23T05:06:55.521612Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: exit
+2025-11-23T05:06:55.521628Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: exit
+2025-11-23T05:06:55.521678Z  INFO extract_candidates: tailwindcss_oxide::scanner: exit
+2025-11-23T05:06:55.521839Z  INFO get_files: tailwindcss_oxide::scanner: enter
+2025-11-23T05:06:55.521846Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: enter
+2025-11-23T05:06:55.522976Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\lotes-en-taganga\\lotes-en-taganga\\app"
+2025-11-23T05:06:55.523140Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\lotes-en-taganga\\lotes-en-taganga\\app\\components"
+2025-11-23T05:06:55.523769Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\lotes-en-taganga\\lotes-en-taganga\\public"
+2025-11-23T05:06:55.524133Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: exit
+2025-11-23T05:06:55.524253Z  INFO get_files: tailwindcss_oxide::scanner: exit
+2025-11-23T05:06:55.524341Z  INFO get_globs: tailwindcss_oxide::scanner: enter
+2025-11-23T05:06:55.524347Z  INFO get_globs: tailwindcss_oxide::scanner: exit
+2025-11-23T05:07:33.323337Z  INFO scan_sources: tailwindcss_oxide::scanner: enter
+2025-11-23T05:07:33.325091Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\lotes-en-taganga\\lotes-en-taganga\\app"
+2025-11-23T05:07:33.325417Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\lotes-en-taganga\\lotes-en-taganga\\app\\components"
+2025-11-23T05:07:33.325595Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\lotes-en-taganga\\lotes-en-taganga\\app\\components\\Header.tsx"
+2025-11-23T05:07:33.326206Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\lotes-en-taganga\\lotes-en-taganga\\public"
+2025-11-23T05:07:33.326644Z  INFO scan_sources: tailwindcss_oxide::scanner: exit
+2025-11-23T05:07:33.326655Z  INFO extract_candidates: tailwindcss_oxide::scanner: enter
+2025-11-23T05:07:33.326661Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: enter
+2025-11-23T05:07:33.326664Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading 1 file(s)
+2025-11-23T05:07:33.326711Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading "G:\\GitHub\\lotes-en-taganga\\lotes-en-taganga\\app\\components\\Header.tsx"
+2025-11-23T05:07:33.326720Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: exit
+2025-11-23T05:07:33.326724Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: enter
+2025-11-23T05:07:33.326728Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: enter
+2025-11-23T05:07:33.326732Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: exit
+2025-11-23T05:07:33.326736Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: exit
+2025-11-23T05:07:33.326741Z  INFO extract_candidates: tailwindcss_oxide::scanner: exit
+2025-11-23T05:07:33.326923Z  INFO get_files: tailwindcss_oxide::scanner: enter
+2025-11-23T05:07:33.326929Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: enter
+2025-11-23T05:07:33.328062Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\lotes-en-taganga\\lotes-en-taganga\\app"
+2025-11-23T05:07:33.328232Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\lotes-en-taganga\\lotes-en-taganga\\app\\components"
+2025-11-23T05:07:33.328959Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\lotes-en-taganga\\lotes-en-taganga\\public"
+2025-11-23T05:07:33.329408Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: exit
+2025-11-23T05:07:33.329560Z  INFO get_files: tailwindcss_oxide::scanner: exit
+2025-11-23T05:07:33.329715Z  INFO get_globs: tailwindcss_oxide::scanner: enter
+2025-11-23T05:07:33.329724Z  INFO get_globs: tailwindcss_oxide::scanner: exit
+2025-11-23T05:07:38.145955Z  INFO scan_sources: tailwindcss_oxide::scanner: enter
+2025-11-23T05:07:38.147204Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\lotes-en-taganga\\lotes-en-taganga\\app"
+2025-11-23T05:07:38.147388Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\lotes-en-taganga\\lotes-en-taganga\\app\\components"
+2025-11-23T05:07:38.147528Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\lotes-en-taganga\\lotes-en-taganga\\app\\components\\Header.tsx"
+2025-11-23T05:07:38.148094Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\lotes-en-taganga\\lotes-en-taganga\\public"
+2025-11-23T05:07:38.148468Z  INFO scan_sources: tailwindcss_oxide::scanner: exit
+2025-11-23T05:07:38.148477Z  INFO extract_candidates: tailwindcss_oxide::scanner: enter
+2025-11-23T05:07:38.148482Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: enter
+2025-11-23T05:07:38.148485Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading 1 file(s)
+2025-11-23T05:07:38.148549Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading "G:\\GitHub\\lotes-en-taganga\\lotes-en-taganga\\app\\components\\Header.tsx"
+2025-11-23T05:07:38.148559Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: exit
+2025-11-23T05:07:38.148563Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: enter
+2025-11-23T05:07:38.148569Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: enter
+2025-11-23T05:07:38.148744Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: exit
+2025-11-23T05:07:38.148753Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: exit
+2025-11-23T05:07:38.148932Z  INFO extract_candidates: tailwindcss_oxide::scanner: exit
+2025-11-23T05:07:38.149054Z  INFO get_files: tailwindcss_oxide::scanner: enter
+2025-11-23T05:07:38.149060Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: enter
+2025-11-23T05:07:38.150029Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\lotes-en-taganga\\lotes-en-taganga\\app"
+2025-11-23T05:07:38.150189Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\lotes-en-taganga\\lotes-en-taganga\\app\\components"
+2025-11-23T05:07:38.150813Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\lotes-en-taganga\\lotes-en-taganga\\public"
+2025-11-23T05:07:38.151175Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: exit
+2025-11-23T05:07:38.151270Z  INFO get_files: tailwindcss_oxide::scanner: exit
+2025-11-23T05:07:38.151339Z  INFO get_globs: tailwindcss_oxide::scanner: enter
+2025-11-23T05:07:38.151345Z  INFO get_globs: tailwindcss_oxide::scanner: exit
