@@ -1,7 +1,7 @@
 "use client";
 
 export default function WhatsAppButton() {
-  const phone = "573001234567"; 
+  const phone = "573242073749"; 
   const message = encodeURIComponent("Hola, estoy interesado en el lote en Dumbira. ¿Me puedes dar más información?");
 
   return (
